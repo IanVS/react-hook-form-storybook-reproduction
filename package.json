@@ -5,7 +5,9 @@
   "license": "MIT",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.32.2",
+    "react-scripts": "5.0.1"
   },
   "packageManager": "yarn@3.2.1",
   "devDependencies": {
@@ -24,7 +26,20 @@
     "prop-types": "^15.8.1"
   },
   "scripts": {
+    "start": "react-scripts start",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
