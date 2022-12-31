@@ -1,13 +1,12 @@
 module.exports = {
   "stories": ['../src'],
-  "addons": [
-    "@storybook/addon-links",
-    "@storybook/addon-essentials",
-    "@storybook/addon-interactions"
-  ],
-  "framework": "@storybook/react",
+  "addons": ["@storybook/addon-links", "@storybook/addon-essentials", "@storybook/addon-interactions"],
+  "framework": {
+    name: "@storybook/react-webpack5",
+    options: {}
+  },
   "features": {
     "previewCsfV3": true,
-    "interactionsDebugger": true,
-  }
-}
+    "interactionsDebugger": true
+  },
+};

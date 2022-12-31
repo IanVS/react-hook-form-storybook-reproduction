@@ -4,7 +4,7 @@ import {expect} from '@storybook/jest';
 
 export default {
     component: App,
-    title: 'react-hook-form'
+    title: 'react-hook-form',
 };
 
 export const MissingFirstName = {

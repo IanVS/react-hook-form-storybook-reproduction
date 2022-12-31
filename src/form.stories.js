@@ -4,7 +4,7 @@ import {expect} from '@storybook/jest';
 
 export default {
     component: App,
-    title: 'standard-form'
+    title: 'standard-form',
 };
 
 export const Submitted = {

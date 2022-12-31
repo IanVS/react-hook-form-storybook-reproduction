@@ -6,4 +6,9 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  layout: 'fullscreen',
 }
+
+export const decorators = [
+  (story) => <div style={{background: 'white', height: "100vh", padding: 16}}>{story()}</div>
+]
